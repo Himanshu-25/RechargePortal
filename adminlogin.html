@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Easy Recharge : Admin Login</title>
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+	<!-- for-mobile-apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!--fonts-->
+	<link href="//fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic" rel="stylesheet" type="text/css">
+	<!--//fonts-->
+	<!-- js -->
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+</head>
+
+<body>
+	<link rel="stylesheet" href="/images/demobar_w3_4thDec2019.css">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content modal-info">
+			<div class="modal-body modal-spa">
+				<div class="login-grids">
+					<div class="login">
+						<div class="login-left">
+							<img src="images/login.png">
+						</div>
+						<div class="login-right">
+							<form action="admin.php" method="POST">
+								<h3>Signin with your account </h3>
+								<input name="username" type="username" value="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Username';}" required pattern="^[a-z\d._]{3,}$" title="Must contain at least 3 or more alphabatic or numeric characters,Capital letters not acceptable.">
+								<input name="password" type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+								<input type="submit" value="SIGNIN">
+							</form>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+	<!-- //for bootstrap working -->
+</body>
+
+</html>

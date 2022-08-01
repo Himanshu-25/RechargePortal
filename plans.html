@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Easy Recharge : Plans
+	</title>
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+	<!-- for-mobile-apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script
+		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!--fonts-->
+	<link href="//fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
+	<link
+		href="//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic"
+		rel="stylesheet" type="text/css">
+	<!--//fonts-->
+	<!-- js -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<!--animate-->
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<!--//end-animate-->
+	<script>
+		$(document).ready(function () {
+			//Initialize tooltips
+			$('.nav-tabs > li a[title]').tooltip();
+
+			//Wizard
+			$('a[data-toggle="tab"]').on('show.bs.tab', function (e) {
+
+				var $target = $(e.target);
+
+				if ($target.parent().hasClass('disabled')) {
+					return false;
+				}
+			});
+
+			$(".next-step").click(function (e) {
+
+				var $active = $('.wizard .nav-tabs li.active');
+				$active.next().removeClass('disabled');
+				nextTab($active);
+
+			});
+			$(".prev-step").click(function (e) {
+
+				var $active = $('.wizard .nav-tabs li.active');
+				prevTab($active);
+
+			});
+		});
+
+		function nextTab(elem) {
+			$(elem).next().find('a[data-toggle="tab"]').click();
+		}
+		function prevTab(elem) {
+			$(elem).prev().find('a[data-toggle="tab"]').click();
+		}
+	</script>
+</head>
+
+<body>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+		(function () {
+			if (typeof _bsa !== 'undefined' && _bsa) {
+				// format, zoneKey, segment:value, options
+				_bsa.init('flexbar', 'CKYI627U', 'placement:w3layoutscom');
+			}
+		})();
+	</script>
+	<script>
+		(function () {
+			if (typeof _bsa !== 'undefined' && _bsa) {
+				// format, zoneKey, segment:value, options
+				_bsa.init('fancybar', 'CKYDL2JN', 'placement:demo');
+			}
+		})();
+	</script>
+	<script>
+		(function () {
+			if (typeof _bsa !== 'undefined' && _bsa) {
+				// format, zoneKey, segment:value, options
+				_bsa.init('stickybox', 'CKYI653J', 'placement:w3layoutscom');
+			}
+		})();
+	</script>
+	<!--<script>(function(v,d,o,ai){ai=d.createElement("script");ai.defer=true;ai.async=true;ai.src=v.location.protocol+o;d.head.appendChild(ai);})(window, document, "//a.vdo.ai/core/w3layouts_V2/vdo.ai.js?vdo=34");</script>-->
+	<div id="codefund">
+		<!-- fallback content -->
+	</div>
+	<script src="https://codefund.io/properties/441/funder.js" async="async"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-149859901-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-149859901-1');
+	</script>
+
+	<script>
+		window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date;
+		ga('create', 'UA-149859901-1', 'demo.w3layouts.com');
+		ga('require', 'eventTracker');
+		ga('require', 'outboundLinkTracker');
+		ga('require', 'urlChangeTracker');
+		ga('send', 'pageview');
+	</script>
+	<script async src="/js/autotrack.js"></script>
+
+	<meta name="robots" content="noindex">
+
+	<body>
+		<link rel="stylesheet" href="/images/demobar_w3_4thDec2019.css">
+		<div class="page-head">
+			<div class="header">
+				<div class="logo">
+					<h1><a href><i><img src="images/cell.png" alt=" "></i>Easy Recharge</a></h1>
+				</div>
+				<div class="top-nav">
+					<span class="menu"><img src="images/menu.png" alt=" "></span>
+					<ul class="nav1" style="text-align: right;">
+						<li><a href="logout.php">Log Out</a></li>
+					</ul>
+					<!-- script-for-menu -->
+					<script>
+						$("span.menu").click(function () {
+							$("ul.nav1").slideToggle(300, function () {
+								// Animation complete.
+							});
+						});
+					</script>
+					<!-- /script-for-menu -->
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="banner-bottom">
+			<div class="container">
+				<div class="view_plans">
+					<h4 class="view_title">Our Latest Recharge Plans</h4>
+					<!---728x90--->
+
+
+					<div class="section_room_single">
+						<select id="country" onchange="change_country(this.value)" class="frm-field required">
+							<option value="Andaman and Nicobar">Andaman and Nicobar</option>
+
+							<option value="Andhra Pradesh">Andhra Pradesh</option>
+
+							<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+
+							<option value="Assam">Assam</option>
+
+							<option value="Bihar">Bihar</option>
+
+							<option value="Chandigarh">Chandigarh</option>
+
+							<option value="Chhattisgarh">Chhattisgarh</option>
+
+							<option value="Daman and Diu">Daman and Diu</option>
+
+							<option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+
+							<option value="Delhi">Delhi</option>
+
+							<option value="Goa">Goa</option>
+
+							<option value="Gujarat">Gujarat</option>
+
+							<option value="Haryana">Haryana</option>
+
+							<option value="Himachal Pradesh">Himachal Pradesh</option>
+
+							<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+
+							<option value="Jharkhand">Jharkhand</option>
+
+							<option value="Karnataka">Karnataka</option>
+
+							<option value="Kerala">Kerala</option>
+
+							<option value="Lakshadweep">Lakshadweep</option>
+
+							<option value="Madhya Pradesh">Madhya Pradesh</option>
+
+							<option value="Maharashtra">Maharashtra</option>
+
+							<option value="Manipur">Manipur</option>
+
+							<option value="Meghalaya">Meghalaya</option>
+
+							<option value="Mizoram">Mizoram</option>
+
+							<option value="Nagaland">Nagaland</option>
+
+							<option value="Orissa">Orissa</option>
+
+							<option value="Pondicherry">Pondicherry</option>
+
+							<option value="Punjab">Punjab</option>
+
+							<option value="Rajasthan">Rajasthan</option>
+
+							<option value="Sikkim">Sikkim</option>
+
+							<option value="Tamil Nadu">Tamil Nadu</option>
+
+							<option value="Telangana">Telangana</option>
+
+							<option value="Tripura">Tripura</option>
+
+							<option value="Uttarakhand">Uttarakhand</option>
+
+							<option value="Uttar Pradesh">Uttar Pradesh</option>
+
+							<option value="West Bengal">West Bengal</option>
+						</select>
+					</div>
+					<div class="clearfix"> </div>
+					<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+					<script type="text/javascript">
+						$(document).ready(function () {
+							$('#horizontalTab').easyResponsiveTabs({
+								type: 'default', //Types: default, vertical, accordion           
+								width: 'auto', //auto or any width like 600px
+								fit: true   // 100% fit in a container
+							});
+						});
+
+					</script>
+					<div class="sap_tabs">
+						<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+							<div class="col-md-3 recharge-left">
+								<ul class="resp-tabs-list">
+									<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>Popular</span>
+									</li>
+									<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Special
+											Recharge</span></li>
+									<li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>Roaming</span>
+									</li>
+									<li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>Top up</span>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-9 recharge-right">
+								<div class="price-gds">
+									<div class="rchge-one">
+										<h3>Price</h3>
+									</div>
+									<div class="rchge-two">
+										<h3>Data</h3>
+									</div>
+									<div class="rchge-three">
+										<h3>Description</h3>
+									</div>
+									<div class="rchge-four">
+										<h3>Validity</h3>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="resp-tabs-container">
+									<!-- full talktime -->
+									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+										<div class="recharge_plans">
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p>48</p>
+													</div>
+													<div class="rchge-two">
+														<p>3 GB</p>
+													</div>
+													<div class="rchge-three">
+														<p>2G/3G/4G Data: 3 GB. Service Validity 28 days</p>
+													</div>
+													<div class="rchge-four">
+														<p>28 Days</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p>49</p>
+													</div>
+													<div class="rchge-two">
+														<p>100 MB</p>
+													</div>
+													<div class="rchge-three">
+														<p>2G/3G/4G Data: 100 MB. Local & STD Calls @ 2.5 p/sec.
+															Talktime: Rs.38.0</p>
+													</div>
+													<div class="rchge-four">
+														<p>28 Days</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p>50</p>
+													</div>
+													<div class="rchge-two">
+														<p>N/A</p>
+													</div>
+													<div class="rchge-three">
+														<p>Regular Talktime</p>
+													</div>
+													<div class="rchge-four">
+														<p>N/A</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p>129</p>
+													</div>
+													<div class="rchge-two">
+														<p>2 GB</p>
+													</div>
+													<div class="rchge-three">
+														<p>2G/3G/4G Data: 2 GB. Local, STD & Roaming Calls: Unlimited.
+															SMS: 300 SMS</p>
+													</div>
+													<div class="rchge-four">
+														<p>24 Days</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p>149</p>
+													</div>
+													<div class="rchge-two">
+														<p>2 GB</p>
+													</div>
+													<div class="rchge-three">
+														<p>Now get Truly Unlimited Local/National Calls to all
+															Networks+2GB Data+300SMS. Validity:28 Days</p>
+													</div>
+													<div class="rchge-four">
+														<p>28 Days</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p class="col-two">249</p>
+													</div>
+													<div class="rchge-two">
+														<p>1.5 GB / Day</p>
+													</div>
+													<div class="rchge-three">
+														<p>Now enjoy Weekend Data roll-over + 1.5 GB/Day Data + Truly
+															Unlimited Local/National Calls to all Networks + 100 Local &
+															National SMS/Day Pack Valid for 28 Days</p>
+													</div>
+													<div class="rchge-four">
+														<p>28 Days</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p class="col-two">251</p>
+													</div>
+													<div class="rchge-two">
+														<p>50 GB</p>
+													</div>
+													<div class="rchge-three">
+														<p>2G/3G/4G Data: 50 GB.Service Validity 28 days</p>
+													</div>
+													<div class="rchge-four">
+														<p>28 Days</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p class="col-two">299</p>
+													</div>
+													<div class="rchge-two">
+														<p>4 GB / Day</p>
+													</div>
+													<div class="rchge-three">
+														<p>Now enjoy Weekend Data roll-over + DOUBLE DATA i.e, 2 + 2 =
+															4GB/Day + Truly Unlimited Local/National Calls to all
+															Networks + 100 Local & National SMS/Day. Pack Validity for
+															28 Days</p>
+													</div>
+													<div class="rchge-four">
+														<p>28 Days</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p class="col-two">399</p>
+													</div>
+													<div class="rchge-two">
+														<p>1.5 GB / Day</p>
+													</div>
+													<div class="rchge-three">
+														<p>Now enjoy Weekend Data roll-over + 1.5 GB/Day Data + Truly
+															Unlimited Local/National Calls to all Networks + 100 Local &
+															National SMS/Day Pack Valid for 56 Days</p>
+													</div>
+													<div class="rchge-four">
+														<p>56 Days</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p class="col-two">499</p>
+													</div>
+													<div class="rchge-two">
+														<p>4 GB / Day</p>
+													</div>
+													<div class="rchge-three">
+														<p>Now enjoy Weekend Data roll-over + DOUBLE DATA i.e, 2 + 2 =
+															4GB/Day + Truly Unlimited Local/National Calls to all
+															Networks + 100 Local & National SMS/Day. Pack Validity for
+															56 Days</p>
+													</div>
+													<div class="rchge-four">
+														<p>56 Days</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p class="col-two">599</p>
+													</div>
+													<div class="rchge-two">
+														<p>1.5 GB / Day</p>
+													</div>
+													<div class="rchge-three">
+														<p>Now enjoy Weekend Data roll-over + 1.5 GB/Day Data + Truly
+															Unlimited Local/National Calls to all Networks + 100 Local &
+															National SMS/Day Pack Valid for 84 Days</p>
+													</div>
+													<div class="rchge-four">
+														<p>84 Days</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+										</div>
+									</div>
+									<!-- //full talktime -->
+									<!-- special recharge -->
+									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+										<div class="recharge_plans">
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p class="col-two">149</p>
+													</div>
+													<div class="rchge-two">
+														<p>1.5 GB / Day</p>
+													</div>
+													<div class="rchge-three">
+														<p>Now enjoy Weekend Data roll-over + DOUBLE DATA i.e, 1.5
+															GB/Day + Truly Unlimited Local/National Calls to all
+															Networks + 100 Local & National SMS/Day. Pack Validity for
+															28 Days</p>
+													</div>
+													<div class="rchge-four">
+														<p>28 Days</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p class="col-two">299</p>
+													</div>
+													<div class="rchge-two">
+														<p>4 GB / Day</p>
+													</div>
+													<div class="rchge-three">
+														<p>Now enjoy Weekend Data roll-over + DOUBLE DATA i.e, 2 + 2 =
+															4GB/Day + Truly Unlimited Local/National Calls to all
+															Networks + 100 Local & National SMS/Day. Pack Validity for
+															28 Days</p>
+													</div>
+													<div class="rchge-four">
+														<p>28 Days</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p class="col-two">399</p>
+													</div>
+													<div class="rchge-two">
+														<p>1.5 GB / Day</p>
+													</div>
+													<div class="rchge-three">
+														<p>Now enjoy Weekend Data roll-over + 1.5 GB/Day Data + Truly
+															Unlimited Local/National Calls to all Networks + 100 Local &
+															National SMS/Day Pack Valid for 56 Days</p>
+													</div>
+													<div class="rchge-four">
+														<p>56 Days</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p class="col-two">499</p>
+													</div>
+													<div class="rchge-two">
+														<p>4 GB / Day</p>
+													</div>
+													<div class="rchge-three">
+														<p>Now enjoy Weekend Data roll-over + DOUBLE DATA i.e, 2 + 2 =
+															4GB/Day + Truly Unlimited Local/National Calls to all
+															Networks + 100 Local & National SMS/Day. Pack Validity for
+															56 Days</p>
+													</div>
+													<div class="rchge-four">
+														<p>56 Days</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p class="col-two">599</p>
+													</div>
+													<div class="rchge-two">
+														<p>1.5 GB / Day</p>
+													</div>
+													<div class="rchge-three">
+														<p>Now enjoy Weekend Data roll-over + 1.5 GB/Day Data + Truly
+															Unlimited Local/National Calls to all Networks + 100 Local &
+															National SMS/Day Pack Valid for 84 Days</p>
+													</div>
+													<div class="rchge-four">
+														<p>84 Days</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+										</div>
+									</div>
+									<!-- //special recharge -->
+									<!-- 2G data -->
+									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+										<div class="recharge_plans">
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p class="col-four">295</p>
+													</div>
+													<div class="rchge-two">
+														<p>N/A</p>
+													</div>
+													<div class="rchge-three">
+														<p>International Roaming. 40 mins of international roaming calls
+															which include outgoing local calls, calls back to india and
+															incoming calls only. applicable in usa, uae, singapore,
+															thailand, uk, sri lanka, china, saudi arabia, qatar, oman,
+															bahrain, kuwait, nepal, bangladesh, indonesia, malaysia,
+															australia, nz, canada & many more. Check operators website
+															for complete list of countries covered. validity: 28 days.
+														</p>
+													</div>
+													<div class="rchge-four">
+														<p>28 Days</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+										</div>
+									</div>
+									<!-- //2G data -->
+									<!-- 3G data -->
+									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
+										<div class="recharge_plans">
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p class="col-two">10</p>
+													</div>
+													<div class="rchge-two">
+														<p>N/A</p>
+													</div>
+													<div class="rchge-three">
+														<p>Regular Talktime</p>
+													</div>
+													<div class="rchge-four">
+														<p>N/A</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p class="col-two">20</p>
+													</div>
+													<div class="rchge-two">
+														<p>N/A</p>
+													</div>
+													<div class="rchge-three">
+														<p>Regular Talktime</p>
+													</div>
+													<div class="rchge-four">
+														<p>N/A</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p class="col-two">30</p>
+													</div>
+													<div class="rchge-two">
+														<p>N/A</p>
+													</div>
+													<div class="rchge-three">
+														<p>Regular Talktime</p>
+													</div>
+													<div class="rchge-four">
+														<p>N/A</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p>50</p>
+													</div>
+													<div class="rchge-two">
+														<p>N/A</p>
+													</div>
+													<div class="rchge-three">
+														<p>Regular Talktime</p>
+													</div>
+													<div class="rchge-four">
+														<p>N/A</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p>100</p>
+													</div>
+													<div class="rchge-two">
+														<p>N/A</p>
+													</div>
+													<div class="rchge-three">
+														<p>Regular Talktime</p>
+													</div>
+													<div class="rchge-four">
+														<p>N/A</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p class="col-two">500</p>
+													</div>
+													<div class="rchge-two">
+														<p>N/A</p>
+													</div>
+													<div class="rchge-three">
+														<p>Regular Talktime</p>
+													</div>
+													<div class="rchge-four">
+														<p>N/A</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p>1000</p>
+													</div>
+													<div class="rchge-two">
+														<p>N/A</p>
+													</div>
+													<div class="rchge-three">
+														<p>Regular Talktime</p>
+													</div>
+													<div class="rchge-four">
+														<p>N/A</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+											<div class="validity">
+												<a href="subscribed.html">
+													<div class="rchge-one">
+														<p>5000</p>
+													</div>
+													<div class="rchge-two">
+														<p>N/A</p>
+													</div>
+													<div class="rchge-three">
+														<p>Regular Talktime</p>
+													</div>
+													<div class="rchge-four">
+														<p>N/A</p>
+													</div>
+													<div class="clearfix"></div>
+												</a>
+											</div>
+										</div>
+									</div>
+									<!-- //3G data -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content-bottom-two">
+			<div class="col-md-6 content-left text-center">
+				<img src="images/bbb5.png" alt>
+			</div>
+			<div class="col-md-6 content-right text-center">
+				<img src="images/bbb3.png" alt>
+			</div>
+			<div class="clearfix"></div>
+			<div class="btm-pos">
+				<h3>Exclusive Offers</h3>
+				<p> Nam libero tempore, cum soluta
+					nobis est eligendi optio cumque
+					nihil impedit quo minus id quod
+					maxime placeat facere possimus,
+					omnis voluptas assumenda est. </p>
+			</div>
+		</div>
+		<!---728x90--->
+
+
+		<div class="footer-top">
+			<div class="container">
+				<div class="foo-grids">
+					<div class="col-md-3 foo-grid"></div>
+					<div class="col-md-3 foo-grid">
+						<h3>MOBILE RECHARGES</h3>
+						<ul>
+							<li><a href="#">Airtel</a></li>
+							<li><a href="#">Vi</a></li>
+							<li><a href="#">BSNL</a></li>
+							<li><a href="#">Jio</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 foo-grid">
+						<h3>PAYMENT OPTIONS</h3>
+						<ul>
+							<li>Credit Cards</li>
+							<li>Debit Cards</li>
+							<li>Any Visa Debit Card (VBV)</li>
+							<li>Direct Bank Debits</li>
+							<li>Cash Cards</li>
+						</ul>
+					</div>
+					<div class="col-md-3 foo-grid"></div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="container">
+				<h2><a href>Easy Recharge</a></h2>
+				<p>&copy; 2021 Easy Recharge. All Rights Reserved</p>
+				<ul>
+					<li><a class="face1" href="#"></a></li>
+					<li><a class="face2" href="#"></a></li>
+					<li><a class="face3" href="#"></a></li>
+					<li><a class="face4" href="#"></a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- for bootstrap working -->
+		<script src="js/bootstrap.js"></script>
+		<!-- //for bootstrap working -->
+	</body>
+</body>
+
+</html>

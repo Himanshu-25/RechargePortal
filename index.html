@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Easy Recharge</title>
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+	<!-- for-mobile-apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!--fonts-->
+	<link href="//fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic" rel="stylesheet" type="text/css">
+	<!--//fonts-->
+	<!-- js -->
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<script>
+		$(document).ready(function () {
+			//Initialize tooltips
+			$('.nav-tabs > li a[title]').tooltip();
+
+			//Wizard
+			$('a[data-toggle="tab"]').on('show.bs.tab', function (e) {
+
+				var $target = $(e.target);
+
+				if ($target.parent().hasClass('disabled')) {
+					return false;
+				}
+			});
+
+			$(".next-step").click(function (e) {
+
+				var $active = $('.wizard .nav-tabs li.active');
+				$active.next().removeClass('disabled');
+				nextTab($active);
+
+			});
+			$(".prev-step").click(function (e) {
+
+				var $active = $('.wizard .nav-tabs li.active');
+				prevTab($active);
+
+			});
+		});
+
+		function nextTab(elem) {
+			$(elem).next().find('a[data-toggle="tab"]').click();
+		}
+		function prevTab(elem) {
+			$(elem).prev().find('a[data-toggle="tab"]').click();
+		}
+	</script>
+</head>
+
+<body>
+	<script>
+		(function () {
+			if (typeof _bsa !== 'undefined' && _bsa) {
+				// format, zoneKey, segment:value, options
+				_bsa.init('flexbar', 'CKYI627U', 'placement:w3layoutscom');
+			}
+		})();
+	</script>
+	<script>
+		(function () {
+			if (typeof _bsa !== 'undefined' && _bsa) {
+				// format, zoneKey, segment:value, options
+				_bsa.init('fancybar', 'CKYDL2JN', 'placement:demo');
+			}
+		})();
+	</script>
+	<script>
+		(function () {
+			if (typeof _bsa !== 'undefined' && _bsa) {
+				// format, zoneKey, segment:value, options
+				_bsa.init('stickybox', 'CKYI653J', 'placement:w3layoutscom');
+			}
+		})();
+	</script>
+	<div id="codefund">
+		<!-- fallback content -->
+	</div>
+	<script src="https://codefund.io/properties/441/funder.js" async="async"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-149859901-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-149859901-1');
+	</script>
+
+	<script>
+		window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date;
+		ga('create', 'UA-149859901-1', 'demo.w3layouts.com');
+		ga('require', 'eventTracker');
+		ga('require', 'outboundLinkTracker');
+		ga('require', 'urlChangeTracker');
+		ga('send', 'pageview');
+	</script>
+	<script async src="/js/autotrack.js"></script>
+
+	<meta name="robots" content="noindex">
+
+	<body>
+		<link rel="stylesheet" href="/images/demobar_w3_4thDec2019.css">
+
+		<div class="banner">
+			<div class="header">
+				<div class="logo">
+					<h1><a href><i><img src="images/cell.png" alt=" "></i>Smart Recharge</a></h1>
+				</div>
+				<div class="top-nav">
+					<span class="menu"><img src="images/menu.png" alt=" "></span>
+					<ul class="nav1" style="text-align: right;">
+						<li><a href="#" id="login" data-toggle="modal" data-target="#myModal4">Login</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#myModal5">Signup</a></li>
+					</ul>
+					<!-- script-for-menu -->
+					<script>
+						$("span.menu").click(function () {
+							$("ul.nav1").slideToggle(300, function () {
+								// Animation complete.
+							});
+						});
+					</script>
+					<!-- /script-for-menu -->
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="container">
+				<div class="banner-info">
+					<h3>AllinOne-Recharge Portal</h3>
+					<h2><i>Relax.....Recharge....Rejuvenate</i></h2>
+				</div>
+				<div class="buttons">
+				</div>
+			</div>
+		</div>
+		<!---728x90--->
+		<div class="coupons">
+			<div class="container">
+				<div class="coupons-grids text-center">
+					<div class="col-md-3 coupons-gd">
+						<h3>HOW TO <span>RECHARGE EASILY</span></h3>
+					</div>
+					<div class="col-md-3 coupons-gd">
+						<h4><span><img src="images/web.png" alt=" "></span></h4>
+						<p>LOGIN TO YOUR ACCOUNT</p>
+					</div>
+					<div class="col-md-3 coupons-gd">
+						<h4><span><img src="images/credit.png" alt=" "></span></h4>
+						<p>ENTER RECHARGE DETAILS</p>
+					</div>
+					<div class="col-md-3 coupons-gd">
+						<h4><span><img src="images/security.png" alt=" "></span></h4>
+						<p>MAKE PAYMENT</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<!---728x90--->
+
+		<div class="footer-top">
+			<div class="container">
+				<div class="foo-grids">
+					<div class="col-md-3 foo-grid"></div>
+					<div class="col-md-3 foo-grid">
+						<h3>MOBILE RECHARGES</h3>
+						<ul>
+							<li><a href="#">Airtel</a></li>
+							<li><a href="#">VI</a></li>
+							<li><a href="#">BSNL</a></li>
+							<li><a href="#">Jio</a></li>
+						
+						</ul>
+					</div>
+					<div class="col-md-3 foo-grid">
+						<h3>PAYMENT OPTIONS</h3>
+						<ul>
+							<li><a href="#">Credit Card</a></li>
+							<li><a href="#">Debt Card</a></li>
+							<li><a href="#">UPI</a></li>
+							<li><a href="#">Wallets</a></li>
+							<li><a href="#">Net Banking</a></li>
+						
+						</ul>
+					</div>
+					<div class="col-md-3 foo-grid"></div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="container">
+				<h2><a href>Easy Recharge</a></h2>
+				<p>&copy; 2021 Easy Recharge. All Rights Reserved</p>
+				<ul>
+					<li><a class="face1" href="#"></a></li>
+					<li><a class="face2" href="#"></a></li>
+					<li><a class="face3" href="#"></a></li>
+					<li><a class="face4" href="#"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content modal-info">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+								aria-hidden="true">&times;</span></button>
+					</div>
+					<div class="modal-body modal-spa">
+						<div class="login-grids">
+							<div class="login">
+								<div class="login-left">
+									<img src="images/login.png">
+								</div>
+								<div class="login-right">
+									<form action="login.php" method="POST">
+										<h3>Signin with your account </h3>
+										<input name="username" type="username" value="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Username';}" required pattern="^[a-z\d._]{3,}$" title="Must contain at least 3 or more alphabatic or numeric characters,Capital letters not acceptable.">
+										<input name="password" type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+										<input type="submit" value="SIGNIN">
+									</form>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //login -->
+		<!-- signup -->
+		<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content modal-info">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+								aria-hidden="true">&times;</span></button>
+					</div>
+					<div class="modal-body modal-spa">
+						<div class="login-grids">
+							<div class="login">
+								<div class="login-left">
+									<img src="images/login.png">
+								</div>
+								<div class="login-right">
+									<form action="signup.php" method="POST">
+										<h3>Create your account </h3>
+										<input name="name" type="name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required pattern="^[a-zA-Z]{3,}$" title="Must contain at least 3 or more alphabatic.">
+										<input name="username" type="username" value="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Username';}" required pattern="^[a-z\d._]{3,}$" title="Must contain at least 3 or more alphabatic or numeric characters,Capital letters not acceptable.">
+										<input name="email" type="email" value="Email id" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email id';}" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$" title="Must contain @ and at least 2 or more characters like .co, .in, .com, etc.">
+										<input name="password" type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+
+										<input type="submit" value="CREATE ACCOUNT">
+									</form>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //signup -->
+		<!-- for bootstrap working -->
+		<script src="js/bootstrap.js"></script>
+		<!-- //for bootstrap working -->
+	</body>
+</body>
+
+</html>
